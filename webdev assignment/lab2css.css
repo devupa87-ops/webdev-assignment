@@ -1,0 +1,143 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+/* Navigation Styles */
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+nav a:hover {
+  background-color: #00509e;
+  border-radius: 5px;
+}
+
+/* Sections */
+.section {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 20px auto;
+  background: white;
+  max-width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Profile Image */
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* Table Styling */
+table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+th {
+  background-color: #003366;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Buttons */
+button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #00509e;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Back to Top Button */
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+#back-to-top:hover {
+  background-color: #00509e;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+/* Horizontal Line */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #003366;
+  width: 60%;
+  margin: 40px auto;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: center;
+    font-size: larger;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
